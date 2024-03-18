@@ -90,7 +90,7 @@ bootstrap:
               - node-name: src:001:sap
                 description: Source 01 data from SAP
               - node-name: src:002:opcua
-                descriptin: Source 02 data from opcua # HINT
+                description: Source 02 data from opcua # HINT
         # HINT: Add another namespace below
         - ns-name: uc
           description: Use cases representing the data/products
