@@ -92,7 +92,7 @@ bootstrap:
               - node-name: src:002:opcua
                 descriptin: Source 02 data from opcua # HINT
         # HINT: Add another namespace below
-        - na-name: uc
+        - ns-name: uc
           description: Use cases representing the data/products
 
           ns-nodes:
