@@ -43,7 +43,7 @@ rawdbs:
                   schedule: On trigger
                   contacts:
                       - name: Master Blaster
-                        email: Master@Blaster
+                        email: david.motte@worley.com
                         role: Bootcamp 64 Administrator
                         send-notification: false
     - rawdb-name: src:002:opcua:db
@@ -56,6 +56,6 @@ rawdbs:
                   schedule: On trigger
                   contacts:
                       - name: Master Blaster
-                        email: Master Blaster
+                        email: david.motte@worley.com
                         role: Bootcamp 64 Administrator
                         send-notification: false
