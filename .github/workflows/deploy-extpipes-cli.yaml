@@ -20,18 +20,18 @@ jobs:
                 include:
                     - environment: test
                       # CDF cluster, like bluefield, greenfield or westeurope-1
-                      CDF_CLUSTER: [CDF cluster]
+                      CDF_CLUSTER: westeurope-1
                       # CDF Project name
-                      CDF_PROJECT: [CDF project]
+                      CDF_PROJECT: cdf-bootcamp-64-test
                       # Azure AD tenant id
-                      IDP_TENANT: [AAD tenant id]
+                      IDP_TENANT: 6e3985b
                     - environment: prod
                       # CDF cluster, like bluefield, greenfield or westeurope-1
-                      CDF_CLUSTER: [CDF cluster]
+                      CDF_CLUSTER: westeurope-1
                       # CDF Project name
-                      CDF_PROJECT: [CDF project]
+                      CDF_PROJECT: cdf-bootcamp-64-prod
                       # Azure AD tenant id
-                      IDP_TENANT: [AAD tenant id]
+                      IDP_TENANT: 6e3985b
 
         environment: ${{ matrix.environment}}
         env:
