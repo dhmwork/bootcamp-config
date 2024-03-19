@@ -42,8 +42,8 @@ rawdbs:
                 - source: csv
                   schedule: On trigger
                   contacts:
-                      - name: [Contact name]
-                        email: [Contact e-mail]
+                      - name: Master Blaster
+                        email: Master@Blaster
                         role: Bootcamp 64 Administrator
                         send-notification: false
     - rawdb-name: src:001:opcua:db
@@ -55,7 +55,7 @@ rawdbs:
                 - source: ice-cream-api
                   schedule: On trigger
                   contacts:
-                      - name: [Contact name]
-                        email: [Contact e-mail]
+                      - name: Master Blaster
+                        email: Master Blaster
                         role: Bootcamp 64 Administrator
                         send-notification: false
